@@ -21,6 +21,7 @@ st.markdown('''###### This Web app predicts whether a person has chronic kidney 
 It uses a trained **Machine learning model ⚙️**  for the predictions''')
 
 st.link_button('What is CKD ?', 'https://www.kidney.org/kidney-topics/chronic-kidney-disease-ckd')
+st.link_button("Source code", "https://github.com/Pra4v3/ckd_prediction")
 
 
 # Total data columns needed = 22
@@ -40,6 +41,7 @@ st.divider()
 col0, col1, col2, col3, col4 = st.columns(5, gap='large')
 
 with col0:
+    st.markdown("")
     st.markdown("")
     st.markdown("")
     age = st.number_input(label= "Age",step=1)
@@ -171,7 +173,8 @@ with tab0:
                             It was trained with publicly available 
                             [data from actual patients](https://archive.ics.uci.edu/dataset/336/chronic+kidney+disease)  
                             ''')
-    st.markdown('If you are interested source code for the app and training data can be found [here](add link to github)')
+    st.markdown('If you are interested source code for the app and training data can be found above.')
+    
 
 # making disclaimer
 with tab1:
@@ -188,5 +191,5 @@ with tab2:
                 Their late presentation of CKD-related symptoms often results in them being left undiagnosed until the later stages of the disease.  
                 I aim to create this app to assist healthcare workers and the general public in identifying individuals at risk of developing chronic kidney disease.
                             """)
-    st.markdown('You can contact me through nbn100lk@gmail.com')
+    st.markdown('You can contact me via nbn100lk@gmail.com')
             
