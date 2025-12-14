@@ -156,8 +156,15 @@ ckd_prediction = ckd_model.predict(input_array)
 
 if submitted:
     with col2:
-        if ckd_prediction:           
+        if (age == 0 or map == 0 or hb_level == 0 or 
+            scr_level == 0 or bu_level == 0 or 
+            na_level == 0 or k_level == 0 or 
+            wbcc_level == 0):
+            st.error('Please enter all the data')
+
+        elif ckd_prediction:           
             st.error('This person has high risk of CKD ⚠️. Please seek further medical support')
+
         else:
             st.success("This person is unlikely to have CKD")
 
