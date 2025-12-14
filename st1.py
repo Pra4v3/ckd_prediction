@@ -14,7 +14,7 @@ ckd_model = pickle.load(open('ckd_best_model.pickle', "rb"))
 
 # 1. style the interface
 
-st.set_page_config()
+st.set_page_config(layout='wide')_config()
 st.title("Chronic Kidney Disease (CKD) Prediction using ML 🩺")
 
 st.markdown('''###### This Web app predicts whether a person has chronic kidney disease or not.  
