@@ -188,5 +188,5 @@ with tab2:
                 Their late presentation of CKD-related symptoms often results in them being left undiagnosed until the later stages of the disease.  
                 I aim to create this app to assist healthcare workers and the general public in identifying individuals at risk of developing chronic kidney disease.
                             """)
-    st.markdown('You can contact me via nbn100lk@gmail.com')
+    st.markdown('You can contact me through nbn100lk@gmail.com')
             
