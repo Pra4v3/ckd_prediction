@@ -1,4 +1,4 @@
-# chronic kidney disease (CKD)
+# Chronic kidney disease (CKD) prediction app
 
 ### Purpose
 This model aims to predict whether a patient has chronic kidney disease (CKD) based on various data gathered from clinical history, examinations, and laboratory findings.
