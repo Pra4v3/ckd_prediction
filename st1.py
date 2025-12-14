@@ -42,7 +42,6 @@ col0, col1, col2, col3, col4 = st.columns(5, gap='large')
 with col0:
     st.markdown("")
     st.markdown("")
-    st.markdown("")
     age = st.number_input(label= "Age",step=1)
     sbp = st.number_input(label= "Systolic Blood Pressure mm/hg", step=1)
     dbp = st.number_input(label= "Diastolic Blood Pressure mm/hg", step=1)
