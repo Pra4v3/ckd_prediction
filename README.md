@@ -14,6 +14,7 @@ This data was gathered in Tamilnadu, India on 2015, and was available via Creati
 Original data was available as arff format. It was processed with LibreOffice Calc to csv format. for better intergration with python workflow.
 
 <img width="1113" height="819" alt="image" src="https://github.com/user-attachments/assets/5bc11a90-37b1-4027-8f28-7d4182bb09f7" />
+Correlation matrix of the data,
 
 
 ### Trained model
